@@ -54,6 +54,9 @@ img{
 .section{
 padding-top: 94px;
 padding-bottom: 94px;
+max-width: 1600px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .btn{
@@ -72,9 +75,6 @@ padding-bottom: 25px;
 
 .header-list{
   display: flex;
-  /* padding-top: 32px;
-  padding-bottom: 32px;
-  background-color: tomato; */
 }
 
 .header-navigation{
@@ -125,11 +125,6 @@ color: #2196F3;
   font-size: 26px;
   line-height: 1.19;
   color: #000000
-}
-
-.title{
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 
@@ -183,10 +178,18 @@ margin-right: 30px;
 }
 
 .title{
-  background-color: #2F303A;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #C4C4C4;
+  background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
-  /* padding-top: 200px;
-  padding-bottom: 280px; */
 }
 
 .general-title{
