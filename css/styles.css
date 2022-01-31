@@ -101,15 +101,6 @@ padding-bottom: 25px;
 }
 
 
-.header-address-link::before{
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  content: "";
-  background-image: url(../images/envelope.svg);
-  background-size: contain;
-}
-
 .header-address-link {
   display: inline-flex;
   font-weight: 500;
@@ -119,14 +110,6 @@ padding-bottom: 25px;
   color: var(--header-adress-color);
 }
 
-.tel::before{
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  content: "";
-  background-image: url(../images/smartphone.svg);
-  background-size: contain;
-}
 
 
 .main-header{
@@ -191,10 +174,37 @@ color: #212121;
 margin-right: 30px;
 }
 
-
-
 .hero-list{
   display: flex;
+}
+
+.hero-item::before{
+  display: block;
+  content: " ";
+  height: 120px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color:#F5F4FA;
+  border-radius: 4px;
+}
+
+.icon-atencion::before{
+  background-image: url(../images/vector-icon-svg.svg);
+}
+
+
+.icon-punctuality::before{
+  background-image: url(../images/clock-icon-svg.svg);
+}
+
+.icon-planing::before{
+  background-image: url(../images/diagram-icon-svg.svg);
+}
+
+.icon-technologik::before{
+  background-image: url(../images/astronaut-icon-svg.svg);
+ 
 }
 
 .title{
@@ -425,6 +435,16 @@ color: rgba(255, 255, 255, 0.6);
 .list{
   list-style: none;
 }
+
+
+.connect-us{
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
 
 /* -----------------------------------------FILTER------------------------------------------------*/
 
